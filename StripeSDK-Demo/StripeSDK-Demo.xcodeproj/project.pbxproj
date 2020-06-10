@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		0C12C602248F404500128D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C12C601248F404500128D06 /* Assets.xcassets */; };
 		0C12C605248F404500128D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C12C603248F404500128D06 /* LaunchScreen.storyboard */; };
 		0C12C610248F404600128D06 /* StripeSDK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12C60F248F404600128D06 /* StripeSDK_DemoTests.swift */; };
+		0C12C61D248F49DF00128D06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C12C61C248F49DF00128D06 /* GoogleService-Info.plist */; };
+		0C12C61F24905CDE00128D06 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12C61E24905CDE00128D06 /* APIClient.swift */; };
 		15C2226E480FE895B0C562A2 /* Pods_StripeSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF174DCF39382249548FA374 /* Pods_StripeSDK_Demo.framework */; };
 		F9AA16B548F8F051E8F4E8C9 /* Pods_StripeSDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3465788B12AD174DE7442D20 /* Pods_StripeSDK_DemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,8 @@
 		0C12C60B248F404600128D06 /* StripeSDK-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StripeSDK-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C12C60F248F404600128D06 /* StripeSDK_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeSDK_DemoTests.swift; sourceTree = "<group>"; };
 		0C12C611248F404600128D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C12C61C248F49DF00128D06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0C12C61E24905CDE00128D06 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		1A2CB8FC8532E0E1997E4EEE /* Pods-StripeSDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeSDK-Demo.debug.xcconfig"; path = "Target Support Files/Pods-StripeSDK-Demo/Pods-StripeSDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		3465788B12AD174DE7442D20 /* Pods_StripeSDK_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripeSDK_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DCD4008569EB133C56079D /* Pods-StripeSDK-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeSDK-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-StripeSDK-DemoTests/Pods-StripeSDK-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				0C12C601248F404500128D06 /* Assets.xcassets */,
 				0C12C603248F404500128D06 /* LaunchScreen.storyboard */,
 				0C12C606248F404500128D06 /* Info.plist */,
+				0C12C61C248F49DF00128D06 /* GoogleService-Info.plist */,
+				0C12C61E24905CDE00128D06 /* APIClient.swift */,
 			);
 			path = "StripeSDK-Demo";
 			sourceTree = "<group>";
@@ -128,7 +134,6 @@
 				FB75AB4EEBCA178D4507A2D0 /* Pods-StripeSDK-DemoTests.debug.xcconfig */,
 				64DCD4008569EB133C56079D /* Pods-StripeSDK-DemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -217,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C12C605248F404500128D06 /* LaunchScreen.storyboard in Resources */,
+				0C12C61D248F49DF00128D06 /* GoogleService-Info.plist in Resources */,
 				0C12C602248F404500128D06 /* Assets.xcassets in Resources */,
 				0C12C600248F404300128D06 /* Main.storyboard in Resources */,
 			);
@@ -303,6 +309,7 @@
 				0C12C5FD248F404300128D06 /* ViewController.swift in Sources */,
 				0C12C5F9248F404300128D06 /* AppDelegate.swift in Sources */,
 				0C12C5FB248F404300128D06 /* SceneDelegate.swift in Sources */,
+				0C12C61F24905CDE00128D06 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

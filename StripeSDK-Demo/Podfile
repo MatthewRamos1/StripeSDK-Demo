@@ -7,6 +7,7 @@ target 'StripeSDK-Demo' do
 
   # Pods for StripeSDK-Demo
   pod 'StripeTerminal'
+  pod 'Firebase/Analytics'
 
   target 'StripeSDK-DemoTests' do
     inherit! :search_paths
